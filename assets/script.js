@@ -5,7 +5,7 @@ var symbols = "!@#$%^&*()-_";
 
 
 var password = document.querySelector("#password");
-var copy = document.querySelector("#copy");
+
 var securePwd = document.querySelector("#securepwd");
 var passwordLength = document.querySelector("#length")
 var numberSelect = document.querySelector("#number-select")
@@ -56,8 +56,5 @@ function generate() {
 }
 
 
-function copyPassword() {
-    document.getElementById("securepwd").select();
-    document.execCommand("Copy");
-    alert("Password copied to clipboard!");
-}
+
+
